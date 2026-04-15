@@ -13,7 +13,7 @@ namespace Apple.Core.Runtime
         {
         }
 
-        public static NSData ArchivedData(InteropReference rootObject, bool requireSecureCoding = true)
+        public static NSData ArchivedData(NSObject rootObject, bool requireSecureCoding = true)
         {
             IntPtr encodedDataPtr = Interop.NSKeyedArchiver_ArchivedData(rootObject.Pointer, requireSecureCoding, NSException.ThrowOnExceptionCallback);
             return encodedDataPtr == IntPtr.Zero ? null : new NSData(encodedDataPtr);
