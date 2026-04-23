@@ -25,3 +25,5 @@ public extension String {
         return strcpy(pointer, utfText);
     }
 }
+
+public typealias NSErrorCallback = @convention(c) (UnsafeMutableRawPointer) -> Void;
