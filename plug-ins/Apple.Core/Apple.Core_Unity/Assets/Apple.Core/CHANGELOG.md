@@ -1,6 +1,11 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
+## [3.3.0] - 2026-04-23
+- Added wrappers for NSKeyedArchiver and NSKeyedUnarchiver.
+- Added `InteropTypeNameAttribute` to streamline how custom interop type names are specified and reduce issues with code-stripping.
+- Force-reserialize all assets copied into the project by the plugin.
+
 ## [3.2.0] - 2025-10-13
 - Added wrappers around NSCalendarUnit and NSDateComponents
 
