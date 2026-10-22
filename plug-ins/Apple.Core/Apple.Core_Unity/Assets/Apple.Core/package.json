@@ -16,7 +16,7 @@
         {
             "displayName": "API Availability Demo",
             "description": "Demo for API Availability Checking",
-            "path": "Demos~/Apple.Core.AvailabilitySample"
+            "path": "Demos/Apple.Core.AvailabilitySample"
         }
     ]
 }
